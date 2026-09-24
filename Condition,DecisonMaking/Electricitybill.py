@@ -24,3 +24,4 @@ print("Fixed Charges:", fixed_charges)
 print("Customer Charges:", customer_charges)
 print("Electricity Duty:", electricity_duty)
 print("Total Bill:", total)
+

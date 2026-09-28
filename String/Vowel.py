@@ -20,15 +20,35 @@ print(f"Vowels: {vcount}")
 print(f"Consonants: {ccount}")
     
 
-
+#count digit
 for i in name:
     if i in '0123456789':
         count = count+1
 print(f"Digits: {count}")
 
+
+#count space
 scount = 0
 
 for i in name:
     if i in " ":
         scount+=1
 print(f"Space count : {scount}")
+
+
+
+#remove vowels
+
+text = "Programming"
+
+vowels = ""
+conse = ""
+
+for j in text:
+    if j in 'aeiou':
+        vowels+=j
+    else:
+        conse+=j
+
+print(conse)
+        

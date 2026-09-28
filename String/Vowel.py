@@ -51,4 +51,16 @@ for j in text:
         conse+=j
 
 print(conse)
-        
+
+
+#replace vowels
+
+rep = "Hello"
+new = ""
+
+for k in rep:
+    if k in "aeiou":
+        new+="*"
+    else:
+        new+=k
+print(new)

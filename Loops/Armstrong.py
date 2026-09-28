@@ -13,4 +13,4 @@ for i in m:
 if n==sum:
     print(f"{n} is an Armstrong number")
 else:
-    print(f"{n} is mot an Armstrong ")
+    print(f"{n} is not an Armstrong ")

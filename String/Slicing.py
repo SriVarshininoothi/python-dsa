@@ -65,7 +65,8 @@ print(r.find("Java"))
 
 
 #count
-
+input = "hello"
+print(len(input))
 print(result.count("a"))
 
 

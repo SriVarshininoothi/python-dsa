@@ -26,3 +26,4 @@ for ch in "swiss":
         Not_Repeat+=ch
         break
 print(Not_Repeat)
+

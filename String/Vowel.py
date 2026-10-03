@@ -59,8 +59,9 @@ rep = "Hello"
 new = ""
 
 for k in rep:
-    if k in "aeiou":
+    if k.lower() in "aeiou":
         new+="*"
     else:
         new+=k
 print(new)
+
